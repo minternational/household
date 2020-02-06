@@ -1,1 +1,1 @@
-## This project is an household expense App which shows the actual status of 
+## This project is an household expense App which shows the actual bank account balance.
