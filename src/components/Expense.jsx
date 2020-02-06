@@ -6,8 +6,8 @@ function Expense() {
 
   return(
     <div className="Expense">
-      <div>Text Output</div>
-      <div>Money Output</div>
+        <p>Text Output</p>
+        <p>Money Output</p>
     </div>
   )
 }

@@ -1,5 +1,5 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import './App.css'
 import Input from './components/Input'
 import Expense from './components/Expense'
 import Sum from './components/Sum'
@@ -15,8 +15,9 @@ function App() {
       <br />
       <Expense />
     </div>
-  );
+  )
 }
 
+console.log("Bis jetzt ist alles okay!")
 
-export default App;
+export default App

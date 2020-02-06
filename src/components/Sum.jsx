@@ -1,10 +1,11 @@
-import React from 'react';
+import React from 'react'
 import '../App.css'
+// import Input from './Input'
 
 
 function Sum() {
   
-  const sum = "1000,00€"
+  const sum = "1000,00 €"
 
   return (
     <div className="Sum">
@@ -15,4 +16,4 @@ function Sum() {
 }
 
 
-export default Sum;
+export default Sum
