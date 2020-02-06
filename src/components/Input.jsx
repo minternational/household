@@ -13,11 +13,15 @@ class Input extends Component {
 
   render() {
     return (
-      <form id="form" onSubmit={ this.handleSubmit } >
-        <input id="artikel" type="text" name="Artikel" placeholder="Artikel eingeben" />
-        <input id="betrag" type="number" name="Betrag" placeholder="Betrag eingeben" />
-        <button id="submit">Hinzufügen</button>
-      </form>
+      <>
+        <p>Aktuelles Guthaben:</p>
+        <h2>{ this.state }</h2>
+        <form id="form" onSubmit={ this.handleSubmit } >
+          <input id="artikel" type="text" name="Artikel" placeholder="Artikel eingeben" />
+          <input id="betrag" type="number" name="Betrag" placeholder="Betrag eingeben" />
+          <button id="submit">Hinzufügen</button>
+        </form>
+      </>
     )
   }
 }
