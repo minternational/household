@@ -1,10 +1,8 @@
 import React from 'react';
 import './App.css';
-import MoneyInput from './components/MoneyInput'
-import TextInput from './components/TextInput'
-import Content from './components/Content'
+import Input from './components/Input'
+import Expense from './components/Expense'
 import Sum from './components/Sum'
-import Submit from './components/Submit'
 
 
 function App() {
@@ -13,11 +11,9 @@ function App() {
     <div className="App">
       <h2>Haushaltsbuch</h2>
       <Sum />
-      <MoneyInput />
-      <TextInput />
-      <Submit />
+      <Input />
       <br />
-      <Content />
+      <Expense />
     </div>
   );
 }

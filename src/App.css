@@ -4,12 +4,16 @@
 
 .App {
   color: green;
+  width: 500px;
+  margin: auto;
+  text-align: center;
 }
 
-.Content {
+.Expense {
   color: darkslategray;
 }
 
 .Sum {
   color: blue;
 }
+

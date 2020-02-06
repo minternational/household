@@ -4,9 +4,12 @@ import '../App.css'
 
 function Sum() {
   
+  const sum = "1000,00€"
+
   return (
     <div className="Sum">
-      <h2>100,00 €</h2>
+      <p>Aktueller Betrag:</p>
+      <h2>{ sum }</h2>
     </div>
   );
 }
